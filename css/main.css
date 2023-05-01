@@ -1,0 +1,21 @@
+.navbar-nav {
+    justify-content: space-between !important;
+}
+
+a {
+    font-weight: 500 !important
+}
+
+img {
+    border-radius: 50% !important;
+
+    color: #59ab6e !important;
+}
+
+.card {
+    --bs-card-border-width: none;
+}
+
+.nav-link.disabled {
+    color: var(--bs-nav-link-color);
+}
