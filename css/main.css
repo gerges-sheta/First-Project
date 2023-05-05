@@ -1,3 +1,9 @@
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+}
+
 .navbar-nav {
     justify-content: space-between !important;
 }
@@ -6,7 +12,7 @@ a {
     font-weight: 500 !important
 }
 
-img {
+.img-card {
     border-radius: 50% !important;
 
     color: #59ab6e !important;
@@ -18,4 +24,35 @@ img {
 
 .nav-link.disabled {
     color: var(--bs-nav-link-color);
+}
+
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.text-center {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.collapse {
+    margin-left: 50px;
+
+}
+
+.container-fluid {
+    margin-right: 7%;
+    margin-left: 7%;
+    height: 70px;
+}
+
+.logo {
+    width: -webkit-fill-available;
+    height: auto;
+}
+
+.navbar-brand {
+    width: 10%;
+    height: auto;
 }
